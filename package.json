@@ -1,15 +1,25 @@
 {
-  "name": "BIAI",
+  "name": "electron-quick-start",
   "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
+  "description": "A minimal Electron application",
+  "main": "main.js",
   "scripts": {
     "start": "electron ."
   },
-  "dependencies": {
-    "brain.js": "^1.6.1"
-  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
   "devDependencies": {
     "electron": "^6.0.10"
+  },
+  "dependencies": {
+    "brain.js": "^1.6.1"
   }
 }

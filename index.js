@@ -3,7 +3,7 @@ const prepareData = require("./data");
 var data;
 
 function calculate() {
-  var output = "";
+  var output = "dane";
   data = prepareData();
 
   var setLength = 800;

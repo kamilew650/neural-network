@@ -1,9 +1,8 @@
 // All of the Node.js APIs are available in the preload process.
 // It has the same sandbox as a Chrome extension.
-const calculate = require("./index");
+const words = require('./index')
 
-window.addEventListener("DOMContentLoaded", () => {
-  const value = calculate();
+window.addEventListener('pageshow', () => {
 
-  document.getElementById("content").innerHTML = value;
-});
+  
+})
